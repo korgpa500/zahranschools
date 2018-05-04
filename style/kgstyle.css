@@ -1,0 +1,56 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: -180px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 200px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 60px;
+    background-color: #4CAF50;
+    text-shadow:#000055 1px 1px 1px;
+}
+
+#news {
+    top: 120px;
+    background-color: #2196F3; /* Blue */
+    text-shadow:#000055 1px 1px 1px;
+}
+
+#activities {
+    top: 180px;
+    background-color: #f44336; /* Red */
+    text-shadow:#000055 1px 1px 1px;
+}
+
+#quality {
+    top: 240px;
+    background-color: #0034ff; /* Dark Blue */
+    text-shadow:#000055 1px 1px 1px;
+}
+#contact {
+    top: 300px;
+    background-color: #882244; /* Light Black */
+    text-shadow:#000055 1px 1px 1px;
+}
+#ActiveLearn {
+    top: 360px;
+    text-shadow:#000055 1px 1px 1px;
+    background-color: #00CC00 /* Light Black */
+}
+
+#imgcircle{
+    width: 250px;
+    height: 250px;
+}

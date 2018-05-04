@@ -1,0 +1,295 @@
+@font-face{
+    font-family:"youssryText";
+    src:url(../font/BSnake.ttf);
+}
+.textTitleY{
+    font-family: "youssryText";
+    font-size: 60px;
+    color: #224466;
+    font-weight: bold;
+    text-shadow: #ffffff 1px 1px 1px;
+}
+
+@font-face{
+    font-family:"youssryText2";
+    src:url(../font/FRSCRIPT.TTF);
+}
+.textTitleYY{
+    font-family: "RockWell" ,"Tahoma";
+    font-size: 45px;
+    color: #224466;
+    font-weight: bold;
+    text-shadow: #ffffff 1px 1px 1px;
+}
+
+#googleMap {
+    /*width: 100%; /* Span the entire width of the screen */
+    height: 600px; /* Set the height to 400 pixels */
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777777;
+    background-color: rgba(20,80,100,0.1); 
+}
+
+.container{
+    padding:60px 20px;
+}
+
+.containerY{
+    padding:60px;
+}
+.person{
+    border:10px solid transparent;
+    margin-bottom: 25px;
+    width: 70%;
+    height: 70%;
+    opacity: 0.7;
+}
+.person:hover{
+    border-color: #224455;
+    opacity: 0.3;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(60%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    opacity: 0.9;
+}
+
+.carousel-caption h3 {
+    color: #ffffff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+
+
+/* Add a dark background color with a little bit see-through */ 
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #224455;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.85;
+    font-family: Montserrat, sans-serif;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+    background-color: #224455;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #ffffff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #ffe066 !important;
+    text-shadow: #000000 1px 1px 1px;
+    font-size: 14px;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+input[type='text']#youssry{
+    border-radius: 8px;
+    box-shadow: #000000 1px 1px 1px inset;
+    padding: 5px;
+}
+input[type='password']#youssry{
+    border-radius: 8px;
+    box-shadow: #000000 1px 1px 1px inset;
+    padding: 5px;
+}
+input[type='submit']#youssry{
+    padding: 5px 35px 5px 25px;
+    border-radius: 8px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 5px #999999;
+    background-color: #245269;
+    color:#ffffff;
+    text-shadow:1px 1px 1px #000000;
+}
+input[type='submit']#youssry:hover{
+    color:#dddddd;
+    background-color: #245979;
+}
+.textareaY{
+    border-radius: 8px;
+    box-shadow: #000000 1px 1px 1px inset;
+    resize: none;
+    padding: 5px;
+}
+
+h5 b{
+    color:#000066;
+}
+a i:hover{
+    color: red;
+}
+.btnLogin{
+    height: 40px;
+    margin: 3px;
+    padding: 7px 20px 5px 20px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 1px 2px 2px #999999;
+    background-color: #245269;
+    color:#ffffff;
+    font-family: "RockWell" ,"Tahoma";
+    font-size: 16px;
+    text-shadow:1px 1px 1px #000000;
+}
+.btnLogin:hover{
+    color:#dddddd;
+    background-color: #245979;
+}
+/*
+th{
+    border:3px #000000 solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: #000000 1px 1px 1px 1px inset;
+    text-align: center;
+}
+td{
+    border:#000000 solid 3px;
+    box-shadow: #000000 1px 1px 1px 1px inset ;
+    text-align: center;
+}
+*/
+img:hover#you {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+h4 ol li{
+    padding-top: 15px;
+}
+
+#home{
+    padding-top: 50px;
+}
+#logoT{
+    width: 200px;
+    height: 200px;
+    filter: contrast(160%);
+    filter: brightness(0.75);
+}
+
+.btnStage{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: #cef8aa; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#cef8aa), to(#7fe0f8));
+    background-image: -webkit-linear-gradient(top, #cef8aa, #7fe0f8);
+    background-image: -moz-linear-gradient(top, #cef8aa, #7fe0f8);
+    background-image: -ms-linear-gradient(top, #cef8aa, #7fe0f8);
+    background-image: -o-linear-gradient(top, #cef8aa, #7fe0f8);
+    background-image: linear-gradient(to bottom, #cef8aa, #7fe0f8);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cef8aa, endColorstr=#7fe0f8);
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 2px 2px #156785, 1px 2px 2px #999999;
+    color:#245269;
+    font-size:17px;
+    text-shadow: #ffffff -1px 0px 2px;
+    font-weight: bold;
+}
+.btnStage:hover{
+    background-color: #9bf1aa; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#9bf1aa), to(#4fd4f5));
+    background-image: -webkit-linear-gradient(top, #9bf1aa, #4fd4f5);
+    background-image: -moz-linear-gradient(top, #9bf1aa, #4fd4f5);
+    background-image: -ms-linear-gradient(top, #9bf1aa, #4fd4f5);
+    background-image: -o-linear-gradient(top, #9bf1aa, #4fd4f5);
+    background-image: linear-gradient(to bottom, #9bf1aa, #4fd4f5);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#9bf1ff, endColorstr=#4fd4f5);
+    box-shadow: 0px 1px 0px #2ab7ec, inset 0px 2px 2px 2px #156785, 1px 2px 2px #999999;
+    animation: shake 1.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+    cursor: pointer;
+    
+}
+
+marquee{
+    height:150px;
+    font-size: 18px;
+}
+.imgNews{
+    width:90%;
+    height:30%;
+    border-radius: 10px;
+    box-shadow: #aaaaaa 3px 3px 3px;
+}
+/*
+.btnStage#kg{
+    top: 50px;
+}
+.btnStage#ps{
+    top: 10px;
+}
+.btnStage#mg{
+    top: -30px;
+}
+.btnStage#mb{
+    top: -30px;
+}
+.btnStage#sg{
+    top: 10px;
+}
+.btnStage#sb{
+    top: 50px;
+}
+*/
+

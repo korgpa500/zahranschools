@@ -1,0 +1,27 @@
+.ImageLogo{
+    filter: contrast(160%);
+    filter: brightness(0.75);
+    margin-left: -200px;
+    margin-top: -100px;
+    position: fixed;
+}
+
+.btnStage#ar{
+    background-image: url(../image/egy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:32px;
+    font-family:"Times New Roman";
+    color:#000044;
+    text-shadow: #ffffff 2px 1px 2px;
+}
+
+.btnStage#eng{
+    background-image: url(../image/eng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:26px;
+    font-family:"Times New Roman";
+    color:#000044;
+    text-shadow: #ffffff 2px 1px 2px;
+}
